@@ -4,10 +4,12 @@ import com.api.rest.unit_test_api_rest.exception.ResourceNotFoundException;
 import com.api.rest.unit_test_api_rest.models.Employe;
 import com.api.rest.unit_test_api_rest.repository.EmployeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class EmployeServiceImpl implements EmployeService{
 
     @Autowired
